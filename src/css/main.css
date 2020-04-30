@@ -1,0 +1,114 @@
+body, html {
+    color: white;
+    font-family:"Dejavu Sans Mono";
+    background: black;
+    height: 100%;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+
+.content, .container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    max-width: 1400px;
+}
+.container  {
+    flex: 1 0 auto;
+}
+
+.footer a, .header a {
+    color: white;
+    margin: 40px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.footer, .header {
+    margin: 20px;
+}
+
+.footer {
+    flex-shrink: 0;
+    padding: 40px;
+    
+}
+
+
+.image-gallery {
+    height: 100%;
+    width: 80%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+h3 {
+    color: black;
+    margin: 30px;
+}
+
+.how, .contact {
+    width: 80%; 
+}
+
+.dimensions {
+    height: 100%;
+    width: 80%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 80%;
+}
+
+textarea, input {
+    font-family:"Dejavu Sans Mono";
+    font-size: 1em;
+    color: black;
+    background: white;
+    margin: 8px;
+    border: solid 8px white;
+}
+
+textarea {
+    height: 159px;
+    width: 100%;
+}
+
+.form-submit {
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}

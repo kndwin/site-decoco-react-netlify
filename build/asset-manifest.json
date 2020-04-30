@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19255dd8.chunk.css",
+    "main.js": "/static/js/main.ee912411.chunk.js",
+    "main.js.map": "/static/js/main.ee912411.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4e0f964b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4e0f964b.js.map",
+    "static/js/2.4c586ffd.chunk.js": "/static/js/2.4c586ffd.chunk.js",
+    "static/js/2.4c586ffd.chunk.js.map": "/static/js/2.4c586ffd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.76c47450b86202edad16787d6f363f7b.js": "/precache-manifest.76c47450b86202edad16787d6f363f7b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.19255dd8.chunk.css.map": "/static/css/main.19255dd8.chunk.css.map",
+    "static/js/2.4c586ffd.chunk.js.LICENSE.txt": "/static/js/2.4c586ffd.chunk.js.LICENSE.txt",
+    "static/media/dimen-raleigh.svg": "/static/media/dimen-raleigh.d48d915d.svg",
+    "static/media/nadia.jpg": "/static/media/nadia.0461b0a4.jpg",
+    "static/media/pickup-raleigh.svg": "/static/media/pickup-raleigh.8c67f4ba.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e0f964b.js",
+    "static/js/2.4c586ffd.chunk.js",
+    "static/css/main.19255dd8.chunk.css",
+    "static/js/main.ee912411.chunk.js"
+  ]
+}
