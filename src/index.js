@@ -4,7 +4,7 @@ import { Header, Footer } from './components/Nav.js';
 import { Furniture } from './components/Furniture.js';
 import { Form  } from './components/Form.js';
 import { Map  } from './components/Map.js';
-import './css/main.css'
+import './css/main.scss';
 
 function Main () {
     return (
