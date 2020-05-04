@@ -12,18 +12,18 @@ function Main () {
             <div class="image-gallery">
                 <img src={require("./images/nadia.jpg")} alt="furniture"/>
             </div>
-            <div class="how step-1">
+            <div class="how">
                 <h1 id='how-it-works'>how it works</h1>
                 <h2>step 1: design model</h2>
                 <p>select your preferred design, size and fabric/leather</p>
             </div>
             <Furniture />
-            <div class="how step-2">
+            <div class="how">
                 <h2>step 2: confirm order</h2>
                 <p>fill out the form below and we'll contact you to confirm your order</p>
             </div>
             <Form />
-            <div class="how step-3">
+            <div class="how">
                 <h2>step 3: pick up</h2>
                 <p>once the design has completed, we'll inform you to pick it up</p>
             </div>
@@ -47,4 +47,3 @@ function Main () {
     );
 }
 ReactDOM.render ( <App />, document.getElementById("root") );
-// ReactDOM.render ( [<App key="1"/> , <Footer key="2" />], document.getElementById("root") )

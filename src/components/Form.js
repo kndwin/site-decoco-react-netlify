@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 export function Form() {
     const { register, handleSubmit, errors  } = useForm();
     const onSubmit = (data) => {
-        console.log(data)
+        console.log(data);
     };
 
     return (
@@ -16,10 +16,13 @@ export function Form() {
                     {errors.number && 'Email is required.'}
                 <input name="number" placeholder="number"
                     ref={register} />
-                <input class="form-submit" type="submit" />
             </div>
-            <textarea name="comments" type="text" placeholder="comments"
-                ref={register} />
+            <div class="form-main">
+                <textarea name="comments" type="text" placeholder="comments"
+                    class="form-textarea"
+                    ref={register} />
+            </div>
+            <input class="form-submit" type="submit" />
         </form>
     );
 }
