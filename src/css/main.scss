@@ -5,6 +5,7 @@ body, html {
     height: 100%;
     width: 100%;
     font-size: 1.3em;
+
     #root {
         display: flex;
         flex-direction: column;
@@ -23,7 +24,7 @@ body, html {
         margin: 30px;
     }
 
-    .how {
+    .contact, .how {
         width: 80%; 
     }
 
@@ -45,7 +46,6 @@ body, html {
     .footer {
         flex-shrink: 0;
         padding: 40px;
-    
     }
 
     .image-gallery, .dimensions {
@@ -93,7 +93,6 @@ body, html {
             width: 100%;
         }
     }
-
 }
 
 
