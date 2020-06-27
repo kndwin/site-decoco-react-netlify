@@ -1,7 +1,7 @@
 body, html {
-    color: white;
+    color: black;
     font-family:"Dejavu Sans Mono";
-    background: black;
+    background: white;
     height: 100%;
     width: 100%;
     font-size: 1.3em;
@@ -33,7 +33,7 @@ body, html {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        max-width: 1400px;
+        max-width: 800px;
     }
     .container  {
         flex: 1 0 auto;
@@ -48,7 +48,7 @@ body, html {
         padding: 40px;
     }
 
-    .image-gallery, .dimensions {
+    .dimensions {
         height: 100%;
         width: 80%;
         background: white;

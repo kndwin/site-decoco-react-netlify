@@ -9,9 +9,9 @@ import './css/main.scss';
 function Main () {
     return (
         <div class="content">
-            <div class="image-gallery">
-                <img src={require("./images/nadia.jpg")} alt="furniture"/>
-            </div>
+            <img class="dimensions"
+                src={require("./images/nadia.jpg")} 
+                alt="furniture"/>
             <div class="how">
                 <h1 id='how-it-works'>how it works</h1>
                 <h2>step 1: design model</h2>
